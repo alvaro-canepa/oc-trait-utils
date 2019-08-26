@@ -6,16 +6,17 @@ Util trait for OctoberCMS
 Package requires **PHP 7.2+** and works with **OctoberCMS**.
 
 Require the package in your `composer.json`:
-    ```
-        "require": {
-            ...
-            "alvaro-canepa/oc-trait-utils": "~1.0",
-        },
-    ```
+
+```
+    "require": {
+        ...
+        "alvaro-canepa/oc-trait-utils": "~1.0",
+    },
+```
 
 ## Usage example
 
-    ```php
+```php
     class myModel extend Model {
         use PlanetaDelEste\Traits\Utils;
 
@@ -55,15 +56,15 @@ Require the package in your `composer.json`:
     // Methods
 
     /*
-     * Return array with all model columns.
-     *      Example: ['id', 'created_at', 'updated_at', 'name', 'description']
-     */
+        * Return array with all model columns.
+        *      Example: ['id', 'created_at', 'updated_at', 'name', 'description']
+        */
     $myModel->getTableColumns();
-    
+
     /*
-     *  Return array with all text ('VARCHAR', 'TEXT', 'CHAR') columns.
-     *      Example: ['name', 'description']
-     */
+        *  Return array with all text ('VARCHAR', 'TEXT', 'CHAR') columns.
+        *      Example: ['name', 'description']
+        */
     $myModel->getFullTextIndexFields();
 
-    ```
+```
