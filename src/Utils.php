@@ -1,4 +1,4 @@
-<?php namespace PlanetaDelEste\Traits\Utils;
+<?php namespace PlanetaDelEste\Traits;
 
 use DB;
 
