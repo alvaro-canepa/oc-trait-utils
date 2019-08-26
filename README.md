@@ -18,7 +18,7 @@ Require the package in your `composer.json`:
 
 ```php
     class myModel extend Model {
-        use PlanetaDelEste\Traits\Utils;
+        use PlanetaDelEste\Traits;
 
         ...
 
