@@ -1,0 +1,20 @@
+{
+    "name": "alvaro-canepa/oc-trait-utils",
+    "description": "OctoberCMS Util Trait",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Alvaro Canepa",
+            "email": "bfpdevel@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "PlanetaDelEste\\Traits\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
